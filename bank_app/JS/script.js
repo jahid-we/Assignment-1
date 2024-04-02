@@ -11,9 +11,9 @@ class BankAccount {
     deposit(amount) {
         if (amount > 0) {
             this.balance += amount;
-            console.log(`Diposited $${amount} Into Account ${this.accountNumber} And Account Owner Name Is ${this.ownerName} `)
+            console.log(`Diposited $${amount} Into Account ${this.accountNumber} And Account Owner Name Is ${this.ownerName}. `)
         } else {
-            console.log("Sorry You Can't Deposit this type of Amount,Please Try Again.");
+            console.log("Sorry, You Can't Deposit this type of Amount. Please Try Again.");
         }
     }
 
